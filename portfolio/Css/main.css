@@ -1,0 +1,92 @@
+/* Project reset code */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  font-family: KalamehWeb;
+}
+
+.container {
+  max-width: 80rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  /* height: 100px;
+  background-color: blueviolet; */
+}
+
+/* row 1 header top
+    style for navbar========================== */
+header{
+  background-color: #1c1c28;
+}
+.header-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+.header-nav{
+  display: flex;
+  align-items: center;
+}
+.header-nav > .menu ul{
+  display: flex;
+  margin-right: 1rem;
+}
+.header-nav > .menu ul li{
+  margin-right: 3rem;
+}
+.header-nav > .menu ul a{
+  font-weight: 600;
+  color: #ffff;
+  transition: 0.2s;
+}
+.header-nav > nav ul a:hover{
+  color: #2cc06a;
+  transition: 0.2s;
+}
+/* row 1 header top
+    style for contact us btn========================== */
+.contact-us_btn a{
+  color: #ffff;
+  padding: 0.5rem 1.2rem;
+  background-color: #4e81fb;
+  border: 1px solid #4e81fb;
+  border-radius: 0.3rem;
+  transition: 0.3s;
+}
+.contact-us_btn a:hover{
+  color: #4e81fb;
+  background-color: transparent;
+}
+/* row 1 header top
+    style for hamburg menu btn and close btn========================== */
+.hamburg-menu_btn{
+  color: #ffff;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+.header-nav > .menu .close-btn{
+  text-align: left;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}

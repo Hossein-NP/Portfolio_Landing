@@ -1,0 +1,54 @@
+.container {
+  max-width: 540px;
+}
+/* row 1 header top
+    style for navbar========================== */
+.header-nav > nav ul a{
+  font-size: 15px;
+}
+/* row 1 header top
+        style for contact us btn========================== */
+.contact-us_btn{
+  display: none;
+}
+  /* creat offcanvas menu */
+.header-nav > .menu {
+  position: fixed;
+  right: -288px;
+  top: 0;
+  bottom: 0;
+  background-color: #32334d;
+  width: 18rem;
+  padding: 1rem;
+  margin: 0;
+  transition: 0.3s;
+  z-index: 100;
+}
+.header-nav > .menu ul{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0 0;
+}
+.header-nav > .menu ul::after{
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #4a4b6d;
+}
+.header-nav > .menu ul::before{
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #4a4b6d;
+}
+.header-nav > .menu ul li{
+  margin: 1rem 0;
+}
+/* row 1 header top
+    style for hamburg menu btn========================== */
+.hamburg-menu_btn{
+  display: block;
+}
+.header-nav > .menu .close-btn{
+  display: none;
+}
