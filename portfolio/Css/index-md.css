@@ -50,5 +50,5 @@
   display: block;
 }
 .header-nav > .menu .close-btn{
-  display: none;
+  display: block;
 }
