@@ -1,5 +1,23 @@
 /* Project reset code */
-
+::selection{
+  background-color: #32334d;
+  color: #2cc06a;
+}
+:root {
+	--gradient-shadow: linear-gradient(
+		45deg,
+		#fb0094,
+		#0000ff,
+		#00ff00,
+		#ffff00,
+		#ff0000,
+		#fb0094,
+		#0000ff,
+		#00ff00,
+		#ffff00,
+		#ff0000
+	);
+}
 html {
   box-sizing: border-box;
 }
@@ -39,7 +57,8 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0 0;
+  padding: 2rem 0 ;
+  border-bottom: 1px solid #32334d;
 }
 .header-nav{
   display: flex;
@@ -97,28 +116,106 @@ header{
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: start;
-  padding-top:5rem ;
-  padding-bottom: 1rem;
+  padding: 4rem 0 2rem;
+  
 }
 .header-bottom_left{
   max-width: 25rem;
 }
+/* .shadow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	width: 400px;
+	height: 250px;
+	background: linear-gradient(0deg, #000, #262626);
+}
+.shadow:before,
+.shadow:after {
+	content: "";
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	background: var(--gradient-shadow);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: animate 20s linear infinite;
+}
+
+.shadow:after {
+	filter: blur(20px);
+}
+
+@keyframes animate {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 300% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+} */
+
 .header-bottom_left img{
   width: 100%;
+  animation: myAnime 10s ease 0s 1 normal forwards;
+}
+@keyframes myAnime {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+
+	10% {
+		transform: rotate(8deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-10deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(10deg);
+	}
+
+	80% {
+		transform: rotate(-8deg);
+	}
+
+	90% {
+		transform: rotate(8deg);
+	}
 }
 /* row 1 header bottom
     style for right section========================== */
 .header-bottom_right .header-right_wrapper{
-  max-width: 33rem;
+  max-width: 25rem;
 }
 .header-bottom_right .header-right_wrapper h1{
   color: #2cc06a;
   font-style: normal;
 	font-weight: 700;
+  font-size: 2rem;
 }
 .header-bottom_right .header-right_wrapper p{
   color: #fff;
   text-align: justify;
   font-style: normal;
 	font-weight: 500;
+  line-height: 1.5rem;
+  font-size: 1rem;
 }
