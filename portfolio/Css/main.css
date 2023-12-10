@@ -51,14 +51,20 @@ body {
 /* row 1 header top
     style for navbar========================== */
 header{
-  background-color: #1c1c28;
+  background-image: url("../images/header-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2rem 0;
 }
 .header-top{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0 ;
-  border-bottom: 1px solid #32334d;
+  padding: 1rem 3rem ;
+  border-radius: 50px;
+  background-color: #32334d80;
+  backdrop-filter: blur(5px);
 }
 .header-nav{
   display: flex;
@@ -115,56 +121,16 @@ header{
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-  align-items: start;
-  padding: 4rem 0 2rem;
-  
+  align-items: center;
+  margin: 2rem 0 0;
+  background-color: #32334d80;
+  backdrop-filter: blur(5px);
+  border-radius: 0.5rem;
 }
 .header-bottom_left{
   max-width: 25rem;
+  padding: 1rem;
 }
-/* .shadow {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-	color: #fff;
-	text-align: center;
-	font-size: 50px;
-	font-weight: bold;
-	width: 400px;
-	height: 250px;
-	background: linear-gradient(0deg, #000, #262626);
-}
-.shadow:before,
-.shadow:after {
-	content: "";
-	position: absolute;
-	top: -2px;
-	left: -2px;
-	background: var(--gradient-shadow);
-	background-size: 400%;
-	width: calc(100% + 4px);
-	height: calc(100% + 4px);
-	z-index: -1;
-	animation: animate 20s linear infinite;
-}
-
-.shadow:after {
-	filter: blur(20px);
-}
-
-@keyframes animate {
-	0% {
-		background-position: 0 0;
-	}
-	50% {
-		background-position: 300% 0;
-	}
-	100% {
-		background-position: 0 0;
-	}
-} */
-
 .header-bottom_left img{
   width: 100%;
   animation: myAnime 10s ease 0s 1 normal forwards;
@@ -203,7 +169,8 @@ header{
 /* row 1 header bottom
     style for right section========================== */
 .header-bottom_right .header-right_wrapper{
-  max-width: 25rem;
+  max-width: 30rem;
+  padding: 1rem;
 }
 .header-bottom_right .header-right_wrapper h1{
   color: #2cc06a;
@@ -218,4 +185,19 @@ header{
 	font-weight: 500;
   line-height: 1.5rem;
   font-size: 1rem;
+}
+.header-right_btn{
+  margin: 3rem 0 2rem;
+}
+.header-right_btn a{
+  padding: 0.5rem 1.5rem;
+  background-color: #4e81fb;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 0.3rem;
+
+}
+.header-right_btn a:hover{
+  background-color: #427afd;
+  transition: 0.3s;
 }
