@@ -76,7 +76,7 @@ header{
   display: flex;
 }
 .header-top nav ul li{
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   border-left: 1px solid #27273a;
 }
 .header-top nav ul li:nth-child(4){
@@ -96,14 +96,25 @@ header{
   width: 8rem;
   padding: 1rem;
   text-align: center;
-  color: #0e96f1;
   border: 1px solid #0e96f1;
   border-radius: 50px;
   transition: 0.3s;
   cursor: pointer;
 }
+.contact-us_btn a{
+  color: #0e96f1;
+  transition: 0.3s;
+}
 .contact-us_btn:hover{
-  color: #fff;
   background-color: #0e96f1;
   transition: 0.3s;
+}
+.contact-us_btn:hover a{
+  color: #fff;
+  transition: 0.3s;
+}
+/* row 1 header >> header-top >> hamburge menu icon 
+======================================== */
+.header-top > span {
+  display: none;
 }

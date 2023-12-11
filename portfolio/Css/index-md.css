@@ -1,3 +1,45 @@
 .container {
   max-width: 540px;
 }
+/* row 1 header >> header-top >> navbar
+======================================== */
+
+.header-top nav{
+  
+}
+.header-top nav ul{
+  position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+}
+.header-top nav ul li{
+	border: none;
+}
+.header-top nav ul li:nth-child(4){
+  
+}
+.header-top nav ul li a{
+  
+}
+.header-top nav ul li a:hover{
+  
+}
+/* row 1 header >> header-top >> nav contact us btn
+======================================== */
+.contact-us_btn{
+  display: none;
+}
+/* row 1 header >> header-top >> hamburge menu icon 
+======================================== */
+.header-top > span {
+	display: block;
+  margin-left: 1rem;
+
+}
+.header-top > span i{
+	color: #fff;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
