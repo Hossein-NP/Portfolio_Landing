@@ -52,7 +52,7 @@ body {
 ======================================== */
 header{
   background: url("../images/head-bg.jpg") center/cover no-repeat;
-  padding: 3rem;
+  padding: 3rem 0;
 }
 /* row 1 header >> header-top >> navbar
 ======================================== */
@@ -118,4 +118,49 @@ header{
 ======================================== */
 .header-top > span {
   display: none;
+}
+/* row 1 header >> header-bottom
+======================================== */
+.header-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3rem 0 0;
+  background-color: #32334d80;
+  backdrop-filter: blur(5px);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+/* row 1 header >> header-bottom >> left section
+======================================== */
+.header-bottom_left{
+  max-width: 20rem;
+}
+.header-bottom_left img{
+  width: 100%;
+  display: block;
+}
+/* row 1 header >> header-bottom >> right section
+======================================== */
+.header-right_wrapper{
+  max-width: 30rem;
+}
+.header-right_wrapper h1{
+  color: #00ff00;
+  font-size: 30px;
+  margin-top: 0;
+  font-family: KalamehWeb;
+	font-style: normal;
+	font-weight: 700;
+}
+.header-right_wrapper p{
+  text-align: justify;
+  line-height: 24px;
+  word-spacing: 3px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  margin-top: 0;
+  font-family: KalamehWeb;
+	font-style: normal;
+	font-weight: 600;
 }
