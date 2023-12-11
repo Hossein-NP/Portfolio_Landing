@@ -8,11 +8,16 @@
   
 }
 .header-top nav ul{
-  position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	z-index: 10;
+  position: absolute;
+  top: -50px;
+  right: -320px;
+  bottom: -643px;
+  z-index: 10;
+  background-color: #1c1c28;
+	flex-direction: column;
+	width: 16rem;
+	padding-top: 2rem;
+	transition: 1s cubic-bezier(.68,-0.55,.27,1.55);
 }
 .header-top nav ul li{
 	border: none;
@@ -35,8 +40,6 @@
 ======================================== */
 .header-top > span {
 	display: block;
-  margin-left: 1rem;
-
 }
 .header-top > span i{
 	color: #fff;
