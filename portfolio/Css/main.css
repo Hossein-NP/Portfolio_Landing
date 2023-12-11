@@ -48,156 +48,62 @@ body {
   background-color: blueviolet; */
 }
 
-/* row 1 header top
-    style for navbar========================== */
+/* row 1 header
+======================================== */
 header{
-  background-image: url("../images/header-bg.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 2rem 0;
+  background: url("../images/head-bg.jpg") center/cover no-repeat;
+  padding: 3rem;
 }
+/* row 1 header >> header-top >> navbar
+======================================== */
 .header-top{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 3rem ;
+  background-color: #32334d80;
+  backdrop-filter: blur(5px);
+  padding: 0.8rem 2rem;
   border-radius: 50px;
-  background-color: #32334d80;
-  backdrop-filter: blur(5px);
 }
-.header-nav{
+.header-top nav .brand-logo{
+  margin-left: 1rem;
+}
+.header-top nav{
   display: flex;
   align-items: center;
 }
-.header-nav > .menu ul{
+.header-top nav ul{
   display: flex;
-  margin-right: 1rem;
 }
-.header-nav > .menu ul li{
-  margin-right: 3rem;
+.header-top nav ul li{
+  padding: 1rem 2rem;
+  border-left: 1px solid #27273a;
 }
-.header-nav > .menu ul a{
-  font-weight: 600;
-  color: #ffff;
-  transition: 0.2s;
+.header-top nav ul li:nth-child(4){
+  border-left: none;
 }
-.header-nav > nav ul a:hover{
-  color: #2cc06a;
-  transition: 0.2s;
-}
-/* row 1 header top
-    style for contact us btn========================== */
-.contact-us_btn a{
-  color: #ffff;
-  padding: 0.5rem 1.2rem;
-  background-color: #4e81fb;
-  border: 1px solid #4e81fb;
-  border-radius: 0.3rem;
+.header-top nav ul li a{
+  color: #fff;
   transition: 0.3s;
 }
-.contact-us_btn a:hover{
-  color: #4e81fb;
-  background-color: transparent;
-}
-/* row 1 header top
-    style for hamburg menu btn and close btn========================== */
-.hamburg-menu_btn{
-  color: #ffff;
-  font-size: 30px;
-  cursor: pointer;
-  display: none;
-}
-.header-nav > .menu .close-btn{
-  text-align: left;
-  font-size: 30px;
-  color: #fff;
-  cursor: pointer;
-  display: none;
-}
-/* row 1 header bottom
-    style for left section========================== */
-.header-bottom{
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  align-items: center;
-  margin: 2rem 0 0;
-  background-color: #32334d80;
-  backdrop-filter: blur(5px);
-  border-radius: 0.5rem;
-}
-.header-bottom_left{
-  max-width: 25rem;
-  padding: 1rem;
-}
-.header-bottom_left img{
-  width: 100%;
-  animation: myAnime 10s ease 0s 1 normal forwards;
-}
-@keyframes myAnime {
-	0%,
-	100% {
-		transform: rotate(0deg);
-		transform-origin: 50% 50%;
-	}
-
-	10% {
-		transform: rotate(8deg);
-	}
-
-	20%,
-	40%,
-	60% {
-		transform: rotate(-10deg);
-	}
-
-	30%,
-	50%,
-	70% {
-		transform: rotate(10deg);
-	}
-
-	80% {
-		transform: rotate(-8deg);
-	}
-
-	90% {
-		transform: rotate(8deg);
-	}
-}
-/* row 1 header bottom
-    style for right section========================== */
-.header-bottom_right .header-right_wrapper{
-  max-width: 30rem;
-  padding: 1rem;
-}
-.header-bottom_right .header-right_wrapper h1{
-  color: #2cc06a;
-  font-style: normal;
-	font-weight: 700;
-  font-size: 2rem;
-}
-.header-bottom_right .header-right_wrapper p{
-  color: #fff;
-  text-align: justify;
-  font-style: normal;
-	font-weight: 500;
-  line-height: 1.5rem;
-  font-size: 1rem;
-}
-.header-right_btn{
-  margin: 3rem 0 2rem;
-}
-.header-right_btn a{
-  padding: 0.5rem 1.5rem;
-  background-color: #4e81fb;
-  color: #fff;
+.header-top nav ul li a:hover{
+  color: #00ff00;
   transition: 0.3s;
-  border-radius: 0.3rem;
-
 }
-.header-right_btn a:hover{
-  background-color: #427afd;
+/* row 1 header >> header-top >> nav contact us btn
+======================================== */
+.contact-us_btn{
+  width: 8rem;
+  padding: 1rem;
+  text-align: center;
+  color: #0e96f1;
+  border: 1px solid #0e96f1;
+  border-radius: 50px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.contact-us_btn:hover{
+  color: #fff;
+  background-color: #0e96f1;
   transition: 0.3s;
 }

@@ -1,22 +1,3 @@
 .container {
   max-width: 720px;
 }
-/* row 1 header bottom
-    style for left section========================== */
-
-.header-bottom_left{
-  max-width: 20rem;
-}
-/* row 1 header bottom
-    style for right section========================== */
-.header-bottom_right .header-right_wrapper{
-  max-width: 37rem;
-}
-.header-bottom_right .header-right_wrapper h1{
-  font-size: 1.5rem;
-}
-.header-bottom_right .header-right_wrapper p{
-  line-height: 1.5rem;
-  font-size: 14px;
-  font-weight: 600;
-}
