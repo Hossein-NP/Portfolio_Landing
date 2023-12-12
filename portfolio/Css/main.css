@@ -195,7 +195,7 @@ header{
 .work-process_wrapper{
  display: flex;
  justify-content: space-around;
- width: 70rem;
+ max-width: 70rem;
  margin: 4rem auto 0;
 }
 .work-process{
@@ -229,11 +229,13 @@ header{
 .work-pic_wrapper{
  display: flex;
  justify-content: space-around;
- width: 70rem;
+ max-width: 70rem;
  margin: 4rem auto 0;
+ border-radius: 1rem;
 }
 .work-pic{
   max-width: 18rem;
+  box-shadow: 0 0px 24px 9px #373851; 
 }
 .work-pic img{
   width: 100%;

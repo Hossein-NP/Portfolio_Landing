@@ -3,10 +3,6 @@
 }
 /* row 1 header >> header-top >> navbar
 ======================================== */
-
-.header-top nav{
-  
-}
 .header-top nav ul{
   position: absolute;
   top: -50px;
@@ -22,15 +18,7 @@
 .header-top nav ul li{
 	border: none;
 }
-.header-top nav ul li:nth-child(4){
-  
-}
-.header-top nav ul li a{
-  
-}
-.header-top nav ul li a:hover{
-  
-}
+
 /* row 1 header >> header-top >> nav contact us btn
 ======================================== */
 .contact-us_btn{
@@ -52,4 +40,37 @@
   display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+/* row 2 main
+======================================== */
+/* row 2 >> how it work section */
+.work-title{
+
+}
+.work-title h5{
+	
+}
+.work-title span{
+	font-size: 25px;
+}
+.work-process_wrapper{
+	flex-direction: column;
+	align-items: center;
+}
+.work-process{
+	margin-top: 2rem;
+}
+.work-process p{
+
+}
+.work-pic_wrapper{
+	flex-direction: column;
+	align-items: center;
+}
+.work-pic{
+	margin-top: 2rem;
+
+}
+.work-pic img{
+
 }
