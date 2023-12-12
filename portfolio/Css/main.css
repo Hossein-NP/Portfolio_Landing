@@ -224,20 +224,79 @@ header{
   color: #b6b6ba;
   margin-bottom: 0;
   text-align: justify;
+  font-size: 14px;
 }
 /* how it work section pic */
 .work-pic_wrapper{
  display: flex;
  justify-content: space-around;
  max-width: 70rem;
- margin: 4rem auto 0;
- border-radius: 1rem;
+ margin: 3rem auto 0;
 }
 .work-pic{
   max-width: 18rem;
   box-shadow: 0 0px 24px 9px #373851; 
+  border-radius: 1rem;
+  overflow: hidden;
 }
 .work-pic img{
   width: 100%;
   display: block;
+}
+/* main >> comments section */
+.comment-section{
+  padding: 3rem 0;
+  background: url("../images/main-bg.jpg") center/cover no-repeat;
+}
+/* comments title */
+.comment-title{
+  text-align: center;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+.comment-title h3{
+  margin-top: 0;
+  font-size: 30px;
+  color: #27273a;
+  font-weight: 700;
+}
+.comment-title span{
+  color: #27273a;
+}
+/* comments */
+.comments-wrapper{
+  max-width: 70rem;
+  margin: 4rem auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.comments-body{
+  max-width: 19rem;
+  background-color: #27273a;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 7px 8px 10px 0px #373851;
+}
+.comments-text{
+  text-align: justify;
+  padding: 1rem 2rem;
+  color: #b6b6ba;
+  font-size: 14px;
+}
+.user-info{
+ display: flex;
+ padding: 1rem 2rem;
+ color: #b6b6ba;
+ display: flex;
+ align-items: center;
+ border: 1px solid #32334d;
+}
+.user-info span{
+  margin-right: 1rem;
+  font-size: 14px;
+  font-family: KalamehWeb;
+	font-style: normal;
+	font-weight: 700;
 }
