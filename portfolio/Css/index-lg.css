@@ -3,6 +3,15 @@
 }
 /* row 2 main
 ======================================== */
+/* process work section  */
+.work-process{
+  margin-bottom: 2rem;
+}
+/* how it work section pic */
+
+ .work-pic{
+  margin-bottom: 2rem;
+ }
 /* comments */
 .comments-body{
 	margin: 2rem 0 0;

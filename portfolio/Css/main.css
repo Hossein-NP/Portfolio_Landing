@@ -197,6 +197,7 @@ header{
  justify-content: space-around;
  max-width: 70rem;
  margin: 4rem auto 0;
+ flex-wrap: wrap;
 }
 .work-process{
   text-align: center;
@@ -232,6 +233,7 @@ header{
  justify-content: space-around;
  max-width: 70rem;
  margin: 3rem auto 0;
+ flex-wrap: wrap;
 }
 .work-pic{
   max-width: 18rem;
@@ -292,6 +294,11 @@ header{
  display: flex;
  align-items: center;
  border: 1px solid #32334d;
+}
+.user-info img{
+  border: 1px solid #b6b6ba;
+  border-radius: 50%;
+  padding: 0.2rem;
 }
 .user-info span{
   margin-right: 1rem;
