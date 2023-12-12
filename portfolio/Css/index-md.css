@@ -46,3 +46,10 @@
 	font-size: 1.5rem;
 	cursor: pointer;
 }
+/* row 1 header >> header-bottom
+======================================== */
+.header-bottom{
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+}

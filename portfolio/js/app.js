@@ -3,7 +3,7 @@ let hamburgBtn = document.querySelector(".menu-icon");
 let hamburgIcon = document.querySelector(".menu-icon i");
 hamburgBtn.addEventListener("click" , function(){
   if(hamburgIcon.classList.contains("bi-list")){
-    menu.style.right = "-64px"
+    menu.style.right = "-16px"
     hamburgIcon.classList = "bi-x-lg"
   }else{
     menu.style.right = "-320px"
