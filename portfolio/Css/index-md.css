@@ -64,11 +64,3 @@
 	margin-top: 2rem;
 }
 /* comments */
-.comments-body{
-  max-width: 80%;
-	margin: 2rem auto 0;
-  background-color: #27273a;
-  border-radius: 1rem;
-  overflow: hidden;
-  box-shadow: 7px 8px 10px 0px #373851;
-}
