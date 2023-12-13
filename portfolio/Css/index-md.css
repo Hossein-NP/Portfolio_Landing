@@ -63,4 +63,17 @@
 .work-pic{
 	margin-top: 2rem;
 }
-/* comments */
+
+/* portfolio title */
+
+.portfolio-title span{
+  font-size: 25px;
+}
+/* portfolio wrapper */
+.portfolio-wrapper{
+  justify-content: space-between;
+}
+
+.portfolio-body {
+  max-width: 16rem;
+}
