@@ -77,3 +77,8 @@
 .portfolio-body {
   max-width: 16rem;
 }
+/* row 3 footer
+======================================== */
+.footer-top_wrapper{
+  flex-direction: column;
+}
